@@ -1,0 +1,21 @@
+# Runtime state (AutoForge and probe output)
+.autoforge/
+results-*.md
+*.log
+
+# Credentials: never commit any
+.env
+.env.*
+*.pem
+*.key
+.netrc
+hosts.yml
+
+# Python and local temporary files
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.tmp
+*.swp
+.DS_Store
